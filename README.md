@@ -22,3 +22,20 @@ Does the current manufacturing data meet this design specification for all manuf
 - The data for Lot 2 has a variance of approximately 7.47, so it meets the design specification as well.
 - The data for Lot 3 has a variance of 170.29, so it does not meet the design specifications because the variance is higher than the threshold of 100. 
 - In total, the data has an overall variance of 62.29, so it meets the design specification.
+
+## T-Tests on Suspension Coils
+### Total
+![Total](ttest.png)
+With a p-value of 0.06, we fail to reject the null hypothesis that the mean is equal to 1500 pounds per square inch, as it is greater than the 0.05 significance level.
+
+### Lot 1
+![Lot1](lot1.png)
+With a p-value of 1, we fail to reject the null hypothesis that the mean is equal to 1500 pounds per square inch, as it is greater than the 0.05 significance level.
+
+### Lot 2
+![Lot2](lot2.png)
+With a p-value of 0.61, we fail to reject the null hypothesis that the mean is equal to 1500 pounds per square inch, as it is greater than the 0.05 significance level.
+
+### Lot 3
+![Lot3](lot3.png)
+With a p-value of 0.04, we can reject the null hypothesis and conclude that the mean is not equal to 1500 pounds per square inch.
