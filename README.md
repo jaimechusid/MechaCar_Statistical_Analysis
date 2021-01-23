@@ -39,3 +39,17 @@ With a p-value of 0.61, we fail to reject the null hypothesis that the mean is e
 ### Lot 3
 ![Lot3](lot3.png)
 With a p-value of 0.04, we can reject the null hypothesis and conclude that the mean is not equal to 1500 pounds per square inch.
+
+## Study Design: MechaCar vs Competition
+What metric or metrics are you going to test?
+-Some metrics we can test in this statistical study are cost, fuel efficiency, horsepower, and safety rating. These are typical qualities that car users take into account when choosing a car. For this statistical study, I am choosing to focus on fuel efficiency.
+
+What is the null hypothesis or alternative hypothesis?
+-Null hypothesis: MechaCar has an average fuel efficiency less than or equal to its competitors.
+-Alternative hypothesis: MechaCar has an average fuel efficiency greater than its competitors.
+
+What statistical test would you use to test the hypothesis? And why?
+-I would use a two-sample t-test because I am interested in seeing how MechaCar's average fuel efficiency compares to that of its competitors. I would perform multiple two-sample t-tests so I can compare it to several different competitors.
+
+What data is needed to run the statistical test?
+-To run this specific statistical test, I would need to gather a large sample of fuel efficiency data for both MechaCar and it's competitors. This would include fuel efficiency data for all different models and makes of the cars, from the past few years for the most updated data.
